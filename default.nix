@@ -61,6 +61,7 @@
   rapidfuzz,
   semver,
   klayout,
+  gdstk,
 }: let
   yosys-with-plugins = yosys.withPlugins (
     [
@@ -126,6 +127,7 @@
       klayout
       rapidfuzz
       semver
+      gdstk
     ];
 
     doCheck = true;
