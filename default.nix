@@ -53,6 +53,7 @@
   rapidfuzz,
   semver,
   klayout,
+  gdstk,
   extra-python-interpreter-packages ? ps: [ ],
 }:
 let
@@ -112,6 +113,7 @@ let
       klayout
       rapidfuzz
       semver
+      gdstk
     ];
 
     doCheck = true;
